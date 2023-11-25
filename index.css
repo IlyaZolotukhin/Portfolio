@@ -1,0 +1,76 @@
+
+    body {
+        margin: 0;
+        background: url(imagin/backgroundImage.jpg) no-repeat;
+        background-size: 100%;
+        font-family: "Calisto MT", sans-serif;
+        color: #b8aaaa;
+    }
+
+    .app-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header {
+        width: 70%;
+        margin: 20px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: xxx-large;
+        margin: 0;
+        background: linear-gradient(45deg, #8AA9D6 33%, #0D61BC 66%, #8AA9D6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: #0B2349;
+    }
+
+    h2 {
+        margin: 0;
+        background: linear-gradient(45deg, #8AA9D6 33%, #0D61BC 66%, #8AA9D6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: #0B2349;
+    }
+
+    p {
+        text-indent: 10px;
+    }
+
+    .aboutMe {
+        width: 70%;
+        margin: 20px 20px 0 20px;
+    }
+
+    .skills {
+        width: 70%;
+        margin: 20px 20px 0 20px;
+    }
+
+    .list {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .education {
+        width: 70%;
+        margin: 20px 20px 0 20px;
+    }
+
+    img {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+
+
+
+

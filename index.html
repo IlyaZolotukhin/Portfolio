@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./index.css">
+    <title>IlyaZolotukhin</title>
+</head>
+<body>
+<div class="app-wrapper">
+    <div id="a"><img src="imagin/startPage.jpg"></div>
+    <div id="b"></div>
+    <div class="c" id="c"></div>
+    <div class="d" id="d"></div>
+    <div class="f" id="f"></div>
+</div>
+
+
+<script>
+    let element1 = document.getElementById("a");
+    let element2 = document.getElementById("b");
+    let element3 = document.getElementById("c");
+    let element4 = document.getElementById("d");
+    let element5 = document.getElementById("f");
+
+    let header = `<div class='header'><h1>Zolotukhin Ilya Alexandrovich</h1> <h2>Frontend Developer</h2></div>`
+    let aboutMe = `
+    <div class='aboutMe'>
+        <h2>About me</h2>
+        <div/>
+        <p>
+                I'm frontend developer with experience in creating SPA using React, Redux, TypeScript.
+            Knowledge in user interface, testing, and debugging processes. I'm improving my skills in this direction
+            and plan to expand them with new technologies, such as Angular.<br/>
+                I usually spend my free time reading IT-literature (M.Fauler),
+            Codewars and improving my English. Open to your suggestions.
+        </p>
+        <div/>
+    `
+    let skills = `<div class="skills"><h2>Skills</h2>
+<div class="list">
+<div>
+<ul>
+<li>React</li>
+<li>Redux</li>
+<li>Typescript</li>
+<li>Javascript</li>
+<li>React Native</li>
+<li>Material-UI</li>
+<li>Axios</li>
+</ul>
+</div>
+<div>
+<ul>
+<li>Storybook</li>
+<li>Unit-test</li>
+<li>SASS</li>
+<li>GIT</li>
+<li>HTML/CSS</li>
+<li>REST API</li>
+</ul>
+</div>
+</div>
+<div/>`
+
+    let education = `<div class="education"><h2>Education</h2><div/>`
+
+    function timeDiv1() {
+        element1.innerHTML = header
+    }
+
+    setTimeout(timeDiv1, 4000)
+
+    function timeDiv2() {
+        element2.innerHTML = aboutMe
+    }
+
+    setTimeout(timeDiv2, 6000)
+
+    function timeDiv3() {
+        element3.innerHTML = skills
+    }
+
+    setTimeout(timeDiv3, 8000)
+
+    function timeDiv4() {
+        element4.innerHTML = education
+    }
+
+    setTimeout(timeDiv4, 10000)
+
+    function timeDiv5() {
+        element5.innerHTML = "<div><h2>шестой</h2></div>"
+    }
+
+    setTimeout(timeDiv5, 12000)
+
+</script>
+
+</body>
+</html>
