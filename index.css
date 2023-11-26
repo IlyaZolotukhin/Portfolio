@@ -35,17 +35,28 @@
         color: #0B2349;
     }
 
-    p {
-        text-indent: 10px;
+    span {
+        font-size: small;
     }
+
+  /*  p {
+        text-indent: 10px;
+    }*/
 
     .aboutMe {
         width: 70%;
         margin: 20px 20px 0 20px;
     }
 
-    .skills {
+    .wrapperSkillsEducation {
         width: 70%;
+        display: flex;
+        flex-direction: row;
+        /*justify-content: space-between;*/
+    }
+
+    .skills {
+        /*width: 70%;*/
         margin: 20px 20px 0 20px;
     }
 
@@ -57,7 +68,11 @@
     }
 
     .education {
-        width: 70%;
+        /*width: 70%;*/
+        margin: 20px 20px 0 50px;
+    }
+
+    .workExperience {
         margin: 20px 20px 0 20px;
     }
 

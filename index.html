@@ -12,8 +12,10 @@
 <div class="app-wrapper">
     <div id="a"><img src="imagin/startPage.jpg"></div>
     <div id="b"></div>
-    <div class="c" id="c"></div>
-    <div class="d" id="d"></div>
+    <div class="wrapperSkillsEducation">
+        <div class="c" id="c"></div>
+        <div class="d" id="d"></div>
+    </div>
     <div class="f" id="f"></div>
 </div>
 
@@ -49,7 +51,6 @@
 <li>Javascript</li>
 <li>React Native</li>
 <li>Material-UI</li>
-<li>Axios</li>
 </ul>
 </div>
 <div>
@@ -60,12 +61,33 @@
 <li>GIT</li>
 <li>HTML/CSS</li>
 <li>REST API</li>
+<li>Axios</li>
 </ul>
 </div>
 </div>
 <div/>`
 
-    let education = `<div class="education"><h2>Education</h2><div/>`
+    let education = `<div class="education"><h2>Education</h2>
+<p>2022-2023 | IT-INCUBATOR | Frontend developer (React/Redux/Typescript/JS)</p>
+<p>2001-2006 | Far Eastern State Technical Fisheries University | Engineer</p>
+<h2>English</h2><p>A2 (Pre-intermediate) in progress</p>
+<div/>`
+
+    let workExperience = `<div class="workExperience"><h2>Work experience</h2>
+<p>MY PROJECT AS FRONTEND DEVELOPER (PART-TIME) | <span>2023-Present</span></p>
+<ul>
+<li>Cards</li>
+<span>Stack: React, React-Native, Redux Toolkit, RTK-Query,Typescript, Javascript</span>
+<li>Todo List</li>
+<span>Stack: React, Redux, Typescript, Javascript, Formik, MUI, Axios, React-Router-dom</span>
+<li>Social Network</li>
+<span>Stack: React, Redux, Typescript, Javascript, Axios, React Hook Form, React-Router-dom</span>
+</ul>
+<p>RUSSIAN RAILWAYS COMPANY (FULL-TIME) | Engineer | <span>2007-2023</span></p>
+<ul>
+<li>ensuring the movement and safe passage of railway trains</li>
+</ul>
+<div/>`
 
     function timeDiv1() {
         element1.innerHTML = header
@@ -92,7 +114,7 @@
     setTimeout(timeDiv4, 10000)
 
     function timeDiv5() {
-        element5.innerHTML = "<div><h2>шестой</h2></div>"
+        element5.innerHTML = workExperience
     }
 
     setTimeout(timeDiv5, 12000)
