@@ -5,7 +5,9 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="css/awesome/css/all.css">
+    <link rel="stylesheet" href="css/index.css">
+    <!--<link rel="stylesheet" href="css/media.css">-->
     <title>IlyaZolotukhin</title>
 </head>
 <body>
@@ -16,7 +18,10 @@
         <div class="c" id="c"></div>
         <div class="d" id="d"></div>
     </div>
-    <div class="f" id="f"></div>
+    <div class="workExperienceAndInfo">
+        <div class="e" id="e"></div>
+        <div class="f" id="f"></div>
+    </div>
 </div>
 
 
@@ -25,7 +30,8 @@
     let element2 = document.getElementById("b");
     let element3 = document.getElementById("c");
     let element4 = document.getElementById("d");
-    let element5 = document.getElementById("f");
+    let element5 = document.getElementById("e");
+    let element6 = document.getElementById("f");
 
     let header = `<div class='header'><h1>Zolotukhin Ilya Alexandrovich</h1> <h2>Frontend Developer</h2></div>`
     let aboutMe = `
@@ -73,7 +79,8 @@
 <h2>English</h2><p>A2 (Pre-intermediate) in progress</p>
 <div/>`
 
-    let workExperience = `<div class="workExperience"><h2>Work experience</h2>
+    let workExperience = `<div class="workExperienceAndInfo">
+<div class="workExperience"><h2>Work experience</h2>
 <p>MY PROJECT AS FRONTEND DEVELOPER (PART-TIME) | <span>2023-Present</span></p>
 <ul>
 <li>Cards</li>
@@ -88,6 +95,17 @@
 <li>ensuring the movement and safe passage of railway trains</li>
 </ul>
 <div/>`
+
+    let info = `<div class="info">
+        <ul>
+            <li><a href="#"><i class="fa-solid fa-phone"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-vk"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-viber"></i></a></li>
+        </ul>
+    </div>
+</div>`
 
     function timeDiv1() {
         element1.innerHTML = header
@@ -118,6 +136,13 @@
     }
 
     setTimeout(timeDiv5, 12000)
+
+    function timeDiv6() {
+        element6.innerHTML = info
+    }
+
+    setTimeout(timeDiv6, 14000)
+
 
 </script>
 
