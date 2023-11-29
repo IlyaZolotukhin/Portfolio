@@ -1,0 +1,130 @@
+@media all and (max-width: 450px) {
+    body {
+        margin: 0;
+        background: url(../image/backgroundImage.jpg) no-repeat;
+        background-size: 100%;
+        font-family: "Calisto MT", sans-serif;
+        color: #b8aaaa;
+    }
+
+    .app-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header {
+        width: 70%;
+        margin: 20px;
+        text-align: center;
+    }
+
+    h1 {
+      font-size: xx-large;
+        margin: 0;
+        background: linear-gradient(45deg, #8AA9D6 33%, #0D61BC 66%, #8AA9D6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: #0B2349;
+    }
+
+    h2 {
+        margin: 0;
+        background: linear-gradient(45deg, #8AA9D6 33%, #0D61BC 66%, #8AA9D6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: #0B2349;
+    }
+
+    span {
+        font-size: small;
+    }
+
+    /*  p {
+          text-indent: 10px;
+      }*/
+    .aboutMe {
+        width: 70%;
+        margin: 20px 20px 0 20px;
+    }
+
+    .wrapperSkillsEducation {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        /*justify-content: space-between;*/
+    }
+
+    .skills {
+        /*width: 70%;*/
+        margin: 20px 20px 0 20px;
+    }
+
+    .list {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .education {
+        /*width: 70%;*/
+        margin: 20px 20px 0 50px;
+    }
+
+    .workExperienceAndInfo {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .workExperience {
+        margin: 20px 20px 0 20px;
+    }
+
+    .f {
+        display: flex;
+    }
+
+    .info {
+        align-self: flex-end;
+        font-size: x-large;
+        margin: 0;
+        background: linear-gradient(45deg, #8AA9D6 33%, #0D61BC 66%, #8AA9D6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: #0B2349;
+    }
+
+    .info ul {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .info ul li a:hover {
+        color: #ff253a;
+    }
+
+    .info ul li {
+        list-style-type: none;
+        display: inline;
+        margin-right: 30px;
+        /*border: 3px solid #0B2349;
+        border-radius: 5px;*/
+        padding: 5px;
+    }
+
+
+    img {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+
+
+
