@@ -11,11 +11,11 @@ body {
     flex-direction: column;
 }
 
-.f1 {
+.foto1 {
     display: flex;
 }
 
-.f2 {
+.foto2 {
     display: none;
 }
 
@@ -31,7 +31,7 @@ h1 {
     background: linear-gradient(45deg, #8AA9D6 33%, #0D61BC 66%, #8AA9D6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    color: #0B2349;
+    color: #8AA9D6;
 }
 
 h2 {
@@ -39,17 +39,12 @@ h2 {
     background: linear-gradient(45deg, #8AA9D6 33%, #0D61BC 66%, #8AA9D6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    color: #0B2349;
+    color: #8AA9D6;
 }
 
-span {
-    font-size: small;
-    font-style: italic;
+p {
+    word-wrap: break-word;
 }
-
-  p {
-      word-wrap: break-word;
-  }
 
 .aboutMe {
     width: 70%;
@@ -61,12 +56,10 @@ span {
     margin: 0 0 0 20px;
     display: flex;
     flex-direction: row;
-    /*justify-content: space-between;*/
 }
 
 .skills {
-    /*width: 70%;*/
-    /*margin: 15px 20px 0 20px;*/
+    margin: 0 0 0 40px;
 }
 
 .list {
@@ -76,55 +69,50 @@ span {
     flex-direction: row;
 }
 
-.education {
-    /*width: 70%;*/
-    /*margin: 15px 20px 0 50px;*/
-}
-
 .workExperienceAndInfo {
-    width: 70%;
+    width: 100%;
     margin: 0 0 0 20px;
     display: flex;
     flex-direction: row;
 }
 
-.workExperience {
-    /*margin: 15px 20px 0 20px;*/
+span {
+    font-size: small;
+
 }
-/*
-.f {
-    display: flex;
-}*/
+
+.workExperience ul li {
+    font-weight: bold;
+    padding-top: 10px;
+}
 
 .info {
     align-self: flex-end;
     font-size: xxx-large;
-    /*margin: 0;*/
     background: linear-gradient(45deg, #8AA9D6 33%, #0D61BC 66%, #8AA9D6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    color: #0B2349;
+    color: #8AA9D6;
 }
 
 .info ul {
     display: flex;
     flex-direction: row;
-/*padding: 0;*/
 }
 
-.info ul li a:hover {
-    color: #ff253a;
+a:hover {
+    background: linear-gradient(45deg, #d68a90 33%, red 66%, #f62e2e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: red;
 }
 
 .info ul li {
     list-style-type: none;
     display: inline;
     margin-left: 30px;
-    /*border: 3px solid #0B2349;
-    border-radius: 5px;*/
     padding: 5px;
 }
-
 
 img {
     margin: 0;
