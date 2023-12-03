@@ -1,3 +1,21 @@
+@media all and (max-width: 1024px) {
+    html {
+        background-color: #0c0c0c;
+    }
+
+    .workExperienceAndInfo {
+        width: 85%;
+        flex-direction: column;
+    }
+
+    .info {
+        align-self: center;
+
+    }
+
+}
+
+
 @media all and (max-width: 450px) {
     html {
         background-color: #0c0c0c;
@@ -57,7 +75,7 @@
 
     .info ul li {
         font-size: xx-large;
-        margin-left: 14px;
+        margin-left: 15px;
         padding: 0px;
     }
 

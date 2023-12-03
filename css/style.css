@@ -98,13 +98,14 @@ span {
 .info ul {
     display: flex;
     flex-direction: row;
+    padding-left: 0;
 }
 
 a:hover {
-    background: linear-gradient(45deg, #d68a90 33%, red 66%, #f62e2e);
+    background: linear-gradient(45deg, #c69be0 33%, #9d08f5 66%, #6c537c);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    color: red;
+    color: #9d08f5;
 }
 
 .info ul li {
