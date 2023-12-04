@@ -28,7 +28,7 @@ body {
 h1 {
     font-size: xxx-large;
     margin: 0;
-    background: linear-gradient(45deg, #8AA9D6 33%, #0D61BC 66%, #8AA9D6);
+    background: linear-gradient(45deg, #0D61BC 33%, #8AA9D6 66%, #8AA9D6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #8AA9D6;
@@ -36,7 +36,7 @@ h1 {
 
 h2 {
     margin: 0;
-    background: linear-gradient(45deg, #8AA9D6 33%, #0D61BC 66%, #8AA9D6);
+    background: linear-gradient(45deg, #0D61BC 33%, #8AA9D6 66%, #8AA9D6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #8AA9D6;
@@ -89,7 +89,7 @@ span {
 .info {
     align-self: flex-end;
     font-size: xxx-large;
-    background: linear-gradient(45deg, #8AA9D6 33%, #0D61BC 66%, #8AA9D6);
+    background: linear-gradient(45deg, #0D61BC 33%, #8AA9D6 66%, #8AA9D6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #8AA9D6;
@@ -102,10 +102,10 @@ span {
 }
 
 a:hover {
-    background: linear-gradient(45deg, #c69be0 33%, #9d08f5 66%, #6c537c);
+    background: linear-gradient(45deg, #9d08f5 33%, #c69be0 66%, #6c537c);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    color: #9d08f5;
+    color: #c69be0;
 }
 
 .info ul li {
