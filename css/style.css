@@ -1,33 +1,21 @@
 body {
     margin: 0;
-    background: url(../image/backgroundImage.jpg) no-repeat;
+    background: url(../image/backgroundPortfolio.png) no-repeat;
     background-size: 100%;
     font-family: "Calisto MT", sans-serif;
     color: #b8aaaa;
 }
 
-.app-wrapper {
+.portfolio {
+    margin: 20px;
     display: flex;
     flex-direction: column;
-}
-
-.foto1 {
-    display: flex;
-}
-
-.foto2 {
-    display: none;
-}
-
-.header {
-    width: 70%;
-    margin: 20px;
-    text-align: center;
 }
 
 h1 {
     font-size: xxx-large;
     margin: 0;
+    text-align: center;
     background: linear-gradient(45deg, #0D61BC 33%, #8AA9D6 66%, #8AA9D6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -35,55 +23,22 @@ h1 {
 }
 
 h2 {
-    margin: 0;
+    margin-top: 20px;
     background: linear-gradient(45deg, #0D61BC 33%, #8AA9D6 66%, #8AA9D6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #8AA9D6;
 }
 
-p {
-    word-wrap: break-word;
+a {
+    text-decoration: none;
 }
 
-.aboutMe {
-    width: 70%;
-    margin: 0 0 0 20px;
-}
-
-.wrapperSkillsEducation {
-    width: 70%;
-    margin: 0 0 0 20px;
-    display: flex;
-    flex-direction: row;
-}
-
-.skills {
-    margin: 0 0 0 40px;
-}
-
-.list {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-}
-
-.workExperienceAndInfo {
-    width: 100%;
-    margin: 0 0 0 20px;
-    display: flex;
-    flex-direction: row;
-}
-
-span {
-    font-size: small;
-
-}
-
-.workExperience ul li {
-    font-weight: bold;
-    padding-top: 10px;
+a:hover h2 {
+    background: linear-gradient(45deg, #9d08f5 33%, #c69be0 66%, #6c537c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #c69be0;
 }
 
 .info {
@@ -115,21 +70,33 @@ a:hover {
     padding: 5px;
 }
 
-img {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
+@media all and (max-width: 1024px) {
+    html {
+        background-color: #0c0c0c;
+    }
+
+    h1 {
+        font-size: xx-large;
+    }
+
+    .portfolio {
+        width: 90%;
+        margin: 0 0 20px 20px;
+    }
+
+    .string {
+        width: 70%;
+    }
+
+    .info {
+        width: 100%;
+        font-size: xx-large;
+        align-self: center;
+
+    }
+
+    .info ul li {
+        margin-left: 15px;
+    }
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
